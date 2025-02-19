@@ -24,4 +24,4 @@ ENV PORT 8080
 
 # start PocketBase
 EXPOSE 8080
-CMD ["/pb/pocketbase", "serve", "--http=0.0.0.0:8080", "--dir=./cloud/storage"]
+CMD ["/pb/pocketbase", "serve", "--http=0.0.0.0:8080", "--dir=/cloud/storage"]
